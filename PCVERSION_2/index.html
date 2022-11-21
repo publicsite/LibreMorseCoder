@@ -1,0 +1,616 @@
+<script type="text/javascript" src="js/riffwave.js"></script>
+<script type="text/javascript" src="js/morseTranslator.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+<script>
+var functionSwitch = 0;
+
+function pressed_F1(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F1_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F1_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F2(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F2_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F2_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F3(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F3_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F3_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F4(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F4_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F4_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F5(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F5_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F5_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F6(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F6_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F6_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F7(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F7_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F7_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F8(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F8_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F8_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F9(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F9_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F9_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F10(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F10_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F10_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F11(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F11_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F11_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_F12(){
+if (functionSwitch == 1) {
+     var cookie_date = new Date ();
+          set_cookie ( "F12_var", document.getElementById("outputText").value, true, cookie_date.getFullYear()+100, cookie_date.getMonth(), cookie_date.getDate(), false, false );
+     }
+     else
+     {
+          document.getElementById("outputText").value = document.getElementById("outputText").value + get_cookie("F12_var");
+     }
+     functionSwitch=0;
+}
+
+function pressed_0(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "0";
+functionSwitch = 0;
+}
+
+function pressed_1(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "1";
+functionSwitch = 0;
+}
+
+function pressed_2(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "2";
+functionSwitch = 0;
+}
+
+function pressed_3(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "3";
+functionSwitch = 0;
+}
+
+function pressed_4(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "4";
+functionSwitch = 0;
+}
+
+function pressed_5(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "5";
+functionSwitch = 0;
+}
+
+function pressed_6(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "6";
+functionSwitch = 0;
+}
+
+function pressed_7(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "7";
+functionSwitch = 0;
+}
+
+function pressed_8(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "8";
+functionSwitch = 0;
+}
+
+function pressed_9(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "9";
+functionSwitch = 0;
+}
+
+function pressed_A(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "A";
+functionSwitch = 0;
+}
+
+function pressed_B(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "B";
+functionSwitch = 0;
+}
+
+function pressed_C(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "C";
+functionSwitch = 0;
+}
+
+function pressed_D(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "D";
+functionSwitch = 0;
+}
+
+function pressed_E(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "E";
+functionSwitch = 0;
+}
+
+function pressed_F(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "F";
+functionSwitch = 0;
+}
+
+function pressed_G(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "G";
+functionSwitch = 0;
+}
+
+function pressed_H(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "H";
+functionSwitch = 0;
+}
+
+function pressed_I(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "I";
+functionSwitch = 0;
+}
+
+function pressed_J(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "J";
+functionSwitch = 0;
+}
+
+function pressed_K(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "K";
+functionSwitch = 0;
+}
+
+function pressed_L(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "L";
+functionSwitch = 0;
+}
+
+function pressed_M(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "M";
+functionSwitch = 0;
+}
+
+function pressed_N(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "N";
+functionSwitch = 0;
+}
+
+function pressed_O(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "O";
+functionSwitch = 0;
+}
+
+function pressed_P(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "P";
+functionSwitch = 0;
+}
+
+function pressed_Q(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "Q";
+functionSwitch = 0;
+}
+
+function pressed_R(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "R";
+functionSwitch = 0;
+}
+
+function pressed_S(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "S";
+functionSwitch = 0;
+}
+
+function pressed_T(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "T";
+functionSwitch = 0;
+}
+
+function pressed_U(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "U";
+functionSwitch = 0;
+}
+
+function pressed_V(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "V";
+functionSwitch = 0;
+}
+
+function pressed_W(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "W";
+functionSwitch = 0;
+}
+
+function pressed_X(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "X";
+functionSwitch = 0;
+}
+
+function pressed_Y(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "Y";
+functionSwitch = 0;
+}
+
+function pressed_Z(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + "Z";
+functionSwitch = 0;
+}
+
+function pressed_space(){
+document.getElementById("outputText").value = document.getElementById("outputText").value + " ";
+functionSwitch = 0;
+}
+
+function pressed_function(){
+functionSwitch = 1;
+}
+
+function pressed_backspace(){
+if ( document.getElementById("outputText").value.length > 0 )
+document.getElementById("outputText").value = document.getElementById("outputText").value.substring(0,document.getElementById("outputText").value.length-1);
+functionSwitch = 0;
+}
+
+function pressed_enter(){
+var volume = get_cookie("vol_var");
+var speed = get_cookie("speed_var");
+
+if (speed == null && volume == null)
+	play_morse(document.getElementById("outputText").value, 250, 440, 0.2); //characterString, milliseconds, freq, volume_level 
+else if (speed == null)
+	play_morse(document.getElementById("outputText").value, 250, 440, volume); //characterString, milliseconds, freq, volume_level 
+else if (volume == null)
+	play_morse(document.getElementById("outputText").value, speed, 440, 0.2); //characterString, milliseconds, freq, volume_level 
+else
+	play_morse(document.getElementById("outputText").value, speed, 440, volume); //characterString, milliseconds, freq, volume_level 
+	document.getElementById("outputText").value = "";
+	functionSwitch = 0;
+document.getElementById("outputText").value = "";
+}
+
+function pressed_delete(){
+audio.pause();
+document.getElementById("outputText").value = "";
+functionSwitch = 0;
+}
+
+function pressed_options(){
+functionSwitch = 0;
+    window.location.href = "options.html";
+}
+</script>
+<HTML>
+<FORM action="Javascript: pressed_enter();">
+<body bgcolor="blue">
+<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+<tbody>
+	<tr width="100%" height="12%">
+		<td>
+			<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+			<tr>
+				<td width="8.333%">
+					<input id="opt_btn" style="width:100%;height:100%;" type="button" value="Options" onclick="pressed_options();" />
+				</td>
+				<td>
+					<input type="text" id="outputText" style="width:100%;height:100%;font-size:16pt;" />
+				</td>
+				<td width="8.333%">
+					<input id="del_btn" style="width:100%;height:100%;" type="button" value="Del" onclick="pressed_delete();" />
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr width="100%" height="14.5%">
+		<td>
+			<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+			<tbody>
+				<tr>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F1_btn" style="width:100%;height:100%;" type="button" value="F1" onclick="pressed_F1();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F2_btn" style="width:100%;height:100%;" type="button" value="F2" onclick="pressed_F2();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F3_btn" style="width:100%;height:100%;" type="button" value="F3" onclick="pressed_F3();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F4_btn" style="width:100%;height:100%;" type="button" value="F4" onclick="pressed_F4();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F5_btn" style="width:100%;height:100%;" type="button" value="F5" onclick="pressed_F5();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F6_btn" style="width:100%;height:100%;" type="button" value="F6" onclick="pressed_F6();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F7_btn" style="width:100%;height:100%;" type="button" value="F7" onclick="pressed_F7();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F8_btn" style="width:100%;height:100%;" type="button" value="F8" onclick="pressed_F8();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F9_btn" style="width:100%;height:100%;" type="button" value="F9" onclick="pressed_F9();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F10_btn" style="width:100%;height:100%;" type="button" value="F10" onclick="pressed_F10();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F11_btn" style="width:100%;height:100%;" type="button" value="F11" onclick="pressed_F11();" />
+</td>
+					<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F12_btn" style="width:100%;height:100%;" type="button" value="F12" onclick="pressed_F12();" /></td>
+				</tr>
+			</tbody>
+			</table cellpadding=0 cellspacing=0>
+		</td>
+	</tr>
+
+
+	<tr height="60%">
+		<td>
+			<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+			<tbody>
+				<tr height="25%">
+				<td>
+					<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+					<tbody>
+						<tr>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="1_btn" style="width:100%;height:100%;" type="button" value="1" onclick="pressed_1();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="2_btn" style="width:100%;height:100%;" type="button" value="2" onclick="pressed_2();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="3_btn" style="width:100%;height:100%;" type="button" value="3" onclick="pressed_3();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="4_btn" style="width:100%;height:100%;" type="button" value="4" onclick="pressed_4();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="5_btn" style="width:100%;height:100%;" type="button" value="5" onclick="pressed_5();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="6_btn" style="width:100%;height:100%;" type="button" value="6" onclick="pressed_6();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="7_btn" style="width:100%;height:100%;" type="button" value="7" onclick="pressed_7();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="8_btn" style="width:100%;height:100%;" type="button" value="8" onclick="pressed_8();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="9_btn" style="width:100%;height:100%;" type="button" value="9" onclick="pressed_9();" />
+							</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="0_btn" style="width:100%;height:100%;" type="button" value="0" onclick="pressed_0();" />
+							</td>
+							<td style="border-width:1px;border-color:black;border-style:solid;">
+								<input id="backspace_btn" style="width:100%;height:100%;" type="button" value="<---" onclick="pressed_backspace();" />
+</td>
+							
+						</tr>
+					</tbody>
+					</table>
+				</td>
+				</tr>
+				<tr>
+				<td>
+<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+<tr width="86%" height="100%">
+<td>
+		<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+		<tr>
+		<td>
+					<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+					<tbody>
+						<tr height="12%">
+							<td width=3%>&nbsp;</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="Q_btn" style="width:100%;height:100%;" type="button" value="Q" onclick="pressed_Q();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="W_btn" style="width:100%;height:100%;" type="button" value="W" onclick="pressed_W();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="E_btn" style="width:100%;height:100%;" type="button" value="E" onclick="pressed_E();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="R_btn" style="width:100%;height:100%;" type="button" value="R" onclick="pressed_R();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="T_btn" style="width:100%;height:100%;" type="button" value="T" onclick="pressed_T();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="Y_btn" style="width:100%;height:100%;" type="button" value="Y" onclick="pressed_Y();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="U_btn" style="width:100%;height:100%;" type="button" value="U" onclick="pressed_U();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="I_btn" style="width:100%;height:100%;" type="button" value="I" onclick="pressed_I();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="O_btn" style="width:100%;height:100%;" type="button" value="O" onclick="pressed_O();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="P_btn" style="width:100%;height:100%;" type="button" value="P" onclick="pressed_P();" /></td>
+						</tr>
+					</tbody>
+					</table>
+				</td>
+				</tr>
+				<tr>
+				<td>
+					<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+					<tbody>
+						<tr>
+							<td width=4%>&nbsp;</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="A_btn" style="width:100%;height:100%;" type="button" value="A" onclick="pressed_A();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="S_btn" style="width:100%;height:100%;" type="button" value="S" onclick="pressed_S();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="D_btn" style="width:100%;height:100%;" type="button" value="D" onclick="pressed_D();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="F_btn" style="width:100%;height:100%;" type="button" value="F" onclick="pressed_F();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="G_btn" style="width:100%;height:100%;" type="button" value="G" onclick="pressed_G();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="H_btn" style="width:100%;height:100%;" type="button" value="H" onclick="pressed_H();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="J_btn" style="width:100%;height:100%;" type="button" value="J" onclick="pressed_J();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="K_btn" style="width:100%;height:100%;" type="button" value="K" onclick="pressed_K();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="L_btn" style="width:100%;height:100%;" type="button" value="L" onclick="pressed_L();" /></td>
+							<td width=2%>&nbsp;</td>
+						</tr>
+					</tbody>
+					</table>
+				</td>
+				</tr>
+				<tr>
+				<td>
+					<table cellpadding=0 cellspacing=0 width="100%" height="100%">
+					<tbody>
+						<tr height="12%">
+							<td width=8.333%>&nbsp;</td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="Z_btn" style="width:100%;height:100%;" type="button" value="Z" onclick="pressed_Z();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="X_btn" style="width:100%;height:100%;" type="button" value="X" onclick="pressed_X();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="C_btn" style="width:100%;height:100%;" type="button" value="C" onclick="pressed_C();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="V_btn" style="width:100%;height:100%;" type="button" value="V" onclick="pressed_V();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="B_btn" style="width:100%;height:100%;" type="button" value="B" onclick="pressed_B();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="N_btn" style="width:100%;height:100%;" type="button" value="N" onclick="pressed_N();" /></td>
+							<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="M_btn" style="width:100%;height:100%;" type="button" value="M" onclick="pressed_M();" /></td>
+							<td width=10%>&nbsp;</td>
+						</tr>
+					</tbody>
+					</table>
+				</td>
+				</tr>
+		</table>
+</td>
+
+<td width="12%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="function_enter" style="width:100%;height:100%;" type="button" value="Enter" onclick="pressed_enter();" /></td>
+</td>
+</tr>
+</table>
+			</tbody>
+			</table>
+
+		</td>
+	</tr>
+
+	<tr height="%12">
+		<td>
+		<table cellpadding=0 cellspacing=0 width="100%" height="100%"
+			<tr>
+				<td width="8.333%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="function_btn" style="width:100%;height:100%;" type="button" value="Function" onclick="pressed_function();" /></td>
+				</td>
+				<td width="84%" style="border-width:1px;border-color:black;border-style:solid;">
+<input id="space_btn" style="width:100%;height:100%;" type="button" value="" onclick="pressed_space();" /></td>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+
+</table>
+</body>
+</FORM>
+</HTML>
